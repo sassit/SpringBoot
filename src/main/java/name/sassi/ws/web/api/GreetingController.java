@@ -19,7 +19,7 @@ import static org.springframework.web.bind.annotation.RequestMethod.*;
  * Created by tsassi on 21/05/2016.
  */
 @RestController
-public class GreetingController {
+public class GreetingController extends BaseController {
     @Autowired
     private GreetingService greetingService;
 
